@@ -20,9 +20,9 @@ You can navigate to these sections by:
 5. Implement your code changes, by selecting *horizontal ellipses* menu, in the right-most column of the item of interest, and choosing __Edit__.
 6. You will probably paste your code into the __XML field__ found on the *Templates* tab at the top of the resulting page.
 
-## Code Formatting ##
+## File Naming and Formatting ##
 
-To keep our code files consistent, the following criteria should be met before submitting file changes:
+Each XSL and INI file is named identically to what is in Alma, but has all the spaces removed. (For example, the "Borrowing Activity Letter" has two associated files, which are "BorrowingActivityLetter.xsl" and "BorrowingActivityLetter.ini" respectively.) To keep our code files consistent, the following criteria should be met before submitting file changes:
 
 * [Indentation](https://kennethreilly.medium.com/tabs-vs-spaces-3c24defa7c9e): 4 spaces
 
@@ -30,7 +30,7 @@ To keep our code files consistent, the following criteria should be met before s
 
 * [End of Line Sequence](https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/): LF
 
-## Resources ##
+## Resource Links ##
 
 * [Configuring Alma Letters](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/050Administration/050Configuring_General_Alma_Functions/070Configuring_Alma_Letters) article by Ex Libris
 
