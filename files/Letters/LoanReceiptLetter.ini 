@@ -1,0 +1,22 @@
+; Created on 2022-10-21 by Steven Orr
+
+[Labels]
+author = Author
+department = Circulation Services
+dear = Dear 
+delivered_to = Delivered to
+description = Description
+due_date = Due date
+fine = Fine
+addressFrom = Fresno State Library <hmlcirculation@listserv.csufresno.edu>
+library = Library
+letterName = Loan Receipt
+subject = Loan Receipt
+loan_date = Loan date
+loans = Loans:
+Bcc = None
+Cc = None
+note = Note
+sincerely = Sincerely,
+inform_loaned_items = The following items have been loaned from the Fresno State Library.
+title = Title
