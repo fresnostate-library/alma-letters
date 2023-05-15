@@ -76,7 +76,7 @@
                             <br/>
                             <xsl:choose>
                                 <xsl:when test="notification_data/message = 'Order was Cancelled.'">
-                                    The item (title) you requested has been cancelled. If you requested a film from Kanopy, the license has expired and you will need to <a href="https://www.kanopy.com/en/csufresno/search">submit a new request</a>.
+                                    If you requested a film from Kanopy, the license will expire soon. If it is still needed you will need to <a href="https://www.kanopy.com/en/csufresno/search">submit a new request</a>.
                                 </xsl:when>
                                 <xsl:otherwise>
                                     The above item(s) have arrived in the library and will be available within 7 days. If the item(s) are not available within 7 days, please feel free to Contact Us.
