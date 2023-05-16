@@ -59,7 +59,7 @@
                             <br />
                             <xsl:choose>
                                 <xsl:when test="notification_data/message = 'Item was received.'">
-                                    The above item is now in available.
+                                    The above item is now available.
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of select="notification_data/message"/>
