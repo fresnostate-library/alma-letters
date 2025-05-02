@@ -68,22 +68,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 										</xsl:attribute>
 										<tr>
 											<th>@@title@@</th>
-											<th>@@description@@</th>
 											<th>@@author@@</th>
 											<th>@@old_due_date@@</th>
 											<th>@@new_due_date@@</th>
-											<th>@@library@@</th>
 										</tr>
 
 										<xsl:for-each select="notification_data/item_loans/item_loan">
 										<xsl:sort select="new_due_date_str"/>
 										<tr>
 											<td><xsl:value-of select="title"/></td>
-											<td><xsl:value-of select="item_description"/></td>
 											<td><xsl:value-of select="author"/></td>
 											<td><xsl:value-of select="old_due_date_str"/></td>
 											<td><xsl:value-of select="new_due_date_str"/></td>
-											<td><xsl:value-of select="library_name"/></td>
 										</tr>
 										</xsl:for-each>
 

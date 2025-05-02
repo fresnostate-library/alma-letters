@@ -49,7 +49,9 @@
 						<xsl:when test="notification_data/query_type = 'Type_3_query_name'">
 							<tr>
 								<td>
-									<h3>@@Type_3_header@@</h3>
+									<h3>
+										@@Type_3_header@@
+									</h3>
 								</td>
 							</tr>
 						</xsl:when>
@@ -734,6 +736,8 @@
 								</tr>
 							</xsl:if>
 							<xsl:if test="notification_data/request/external_request_id !=''">
+
+
 								<tr>
 									<td>
 										<strong> @@request_id@@: </strong>
@@ -765,8 +769,8 @@
 						<br />
 
 						<table>
-							<tr><td>@@sincerely@@</td></tr>
-							<tr><td><br/>@@department@@</td></tr>
+							<tr><td>@@Type_1_Sincerely@@</td></tr>
+							<tr><td><br/>Interlibrary Loan</td></tr>
 							<tr><td>Fresno State Library</td></tr>
 							<tr><td>California State University, Fresno</td></tr>
 							<tr><td>5200 N. Barton Ave. M/S UL 34</td></tr>
