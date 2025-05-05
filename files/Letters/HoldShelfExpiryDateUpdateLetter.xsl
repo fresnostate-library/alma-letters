@@ -32,7 +32,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			</xsl:attribute>
 
 				<xsl:call-template name="head" /> <!-- header.xsl -->
-				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
+				<!-- REMOVED: SenderReceiver.xsl -->
 
 				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
 
@@ -45,26 +45,26 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 								</tr>
 
 								<xsl:if test="notification_data/request/work_flow_entity/expiration_date">
-								<tr>
-									<td>
-									 @@note_item_held_until@@ <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.
-									 </td>
-								</tr>
-									</xsl:if>
-								<tr>
-									<td><xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl --></td>
-								</tr>
-								<xsl:if test="notification_data/request/system_notes">
-								<tr>
-									<td><strong>@@notes_affect_loan@@:</strong></td>
-								</tr>
-
-								<tr>
-									<td><xsl:value-of select="notification_data/request/system_notes"/></td>
-								</tr>
-
+									<tr>
+										<td>
+										 @@note_item_held_until@@ <xsl:value-of select="notification_data/request/work_flow_entity/expiration_date"/>.
+										 </td>
+									</tr>
 								</xsl:if>
 
+								<tr>
+									<td><strong><xsl:call-template name="recordTitle" /> <!-- recordTitle.xsl --></strong></td>
+								</tr>
+
+								<xsl:if test="notification_data/request/system_notes !=''">
+								<tr>
+									<td>@@notes_affect_loan@@:</td>
+								</tr>
+								<tr>
+									<td><xsl:value-of select="notification_data/request/system_notes" /></td>
+								</tr>
+								</xsl:if>
+								
 							</table>
 
 							<br />
