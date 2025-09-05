@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <!-- header.xsl -->
                 <br />
                 <xsl:for-each select="notification_data">
-                    <h3 style="padding-left: 5px;">Dear&#160;<xsl:value-of select="receivers/receiver/user/first_name" />&#160;<xsl:value-of select="receivers/receiver/user/last_name" />,</h3>
+                    <h3>Dear&#160;<xsl:value-of select="receivers/receiver/user/first_name"/>&#160;<xsl:value-of select="receivers/receiver/user/last_name"/>,</h3>
                 </xsl:for-each>
                 <table cellpadding="5" cellspacing="0"  border="0">
                     <tr>

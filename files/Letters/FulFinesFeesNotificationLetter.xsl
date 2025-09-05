@@ -26,7 +26,7 @@
                                 <h3>
                                     Dear 
                                     <xsl:value-of select="receivers/receiver/user/first_name" />
-                                     
+                                    <xsl:text> </xsl:text> <!-- Add a space here --> 
                                     <xsl:value-of select="receivers/receiver/user/last_name" />
                                     ,
                                 </h3>
@@ -37,7 +37,7 @@
                                 @@debt_of@@
                                 <b>
                                     <xsl:value-of select="notification_data/total_fines_amount" />
-                                     
+                                    <xsl:text> </xsl:text> <!-- Add a space here --> 
                                     <xsl:value-of select="notification_data/total_fines_currency" />
                                 </b>
                             </h>
