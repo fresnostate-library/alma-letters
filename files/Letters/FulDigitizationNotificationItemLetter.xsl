@@ -40,11 +40,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </xsl:attribute>
         <xsl:call-template name="head" />
         <!-- header.xsl -->
-        <xsl:call-template name="senderReceiver" />
-        <!-- SenderReceiver.xsl -->
+
+
         <div class="messageArea">
           <div class="messageBody">
             <table role='presentation'  cellspacing="0" cellpadding="5" border="0">
+				<tr>
+					<td> </td>
+				</tr>
+				<tr>
+					<td> </td>
+				</tr>
 				<tr>
 					<td>@@your_request@@.</td>
 				</tr>
