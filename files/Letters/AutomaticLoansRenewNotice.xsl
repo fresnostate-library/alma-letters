@@ -30,7 +30,7 @@
                 </xsl:attribute>
 
                 <xsl:call-template name="head" /><!-- header.xsl -->
-                <xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
+
 
                 <br />
                 <xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
