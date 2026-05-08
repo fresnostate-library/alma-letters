@@ -4,7 +4,7 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:include href="header.xsl" />
-<xsl:include href="senderReceiver.xsl" />
+
 <xsl:include href="mailReason.xsl" />
 
 <xsl:include href="style.xsl" />
@@ -21,7 +21,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			</xsl:attribute>
 
 				<xsl:call-template name="head" /> <!-- header.xsl -->
-				<xsl:call-template name="senderReceiver" /> <!-- SenderReceiver.xsl -->
+
 
 				<br />
 				<xsl:call-template name="toWhomIsConcerned" /> <!-- mailReason.xsl -->
