@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:include href="header.xsl" />
-  <xsl:include href="senderReceiver.xsl" />
+
   <xsl:include href="mailReason.xsl" />
   <xsl:include href="footer.xsl" />
   <xsl:include href="style.xsl" />
@@ -26,7 +26,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </xsl:attribute>
         <xsl:call-template name="head" />
         <!-- header.xsl -->
-        <xsl:call-template name="senderReceiver" />
+
         <!-- SenderReceiver.xsl -->
         <div class="messageArea">
           <div class="messageBody">
@@ -59,6 +59,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					<td>@@max_num_of_views@@ <xsl:value-of select="notification_data/request/document_delivery_max_num_of_views"/>.</td>
 				</tr>
 -->
+
+<tr>
+<td>
+
+This document may have been supplied by another library through Resource Sharing and has had OCR (Optical Character Recognition) automatically applied by the software to make it more accessible, but the software is not perfect. If the document is missing OCR, or does not meet your accessibility needs, please send the document to Library Help at <a href="mailto:fresnostatelibrarian@calstate.libanswers.com">fresnostatelibrarian@calstate.libanswers.com</a> so we can make it more accessible.
+
+</td>
+</tr>
+
 				<tr>
 				<tr><td>@@sincerely@@</td></tr>
 <br/>
