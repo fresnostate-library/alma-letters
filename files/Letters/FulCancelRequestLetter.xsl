@@ -328,9 +328,7 @@
                                                         <xsl:value-of select="notification_data/phys_item_display/isbn" />                                                         
                                                     </xsl:variable>
 
-If you would still like to request this material via Interlibrary Loan (7-10 business days) use the following link: <a href="https://fresnostate-illiad-oclc-org.hmlproxy.lib.csufresno.edu/illiad/illiad.dll?Action=10&amp;Form=30&amp;url_ver=z39.88-2004&amp;rfr_id=onesearch&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft.genre=book&amp;citedin=OneSearch&amp;rft.btitle={$title}&amp;rft.aulast={$author}&amp;rft.isbn={$isbn}">Interlibrary Loan </a>.
-
-<br/><br/>
+<br/>
 <b>Please note: Textbooks and required course materials cannot be requested through Interlibrary Loan. </b>
 <br/><br/>
 Please contact ILL at <a href="mailto:interlibraryloan@csufresno.edu ">interlibraryloan@csufresno.edu</a> if you have any questions regarding this request. 
